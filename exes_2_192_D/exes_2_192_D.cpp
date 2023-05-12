@@ -3,21 +3,21 @@ using namespace std;
 
 
 int   binarysearch(int naufal, int n) {
-	int lowerbound = 0;
+	int naufal = 0;
 
-	int upperbound = n - 1;
+	int bayazid = n - 1;
 
-	while (lowerbound <= upperbound) {
-		int mid = (lowerbound + upperbound) / 2
+	while (naufal <= bayazid) {
+		int mid = (naufal + bayazid) / 2
 
 			if (naufal[mid] == n) {
 				return mid;
 			}
 			else if (n < naufal[mid]) {
-				upperbound = mid - 1;
+				bayazid = mid - 1;
 			}
 			else {
-				lowerbound = mid + 1
+				naufal = mid + 1
 			}
 	}
 
@@ -26,11 +26,11 @@ int   binarysearch(int naufal, int n) {
 
 int main() {
 	int n;
-	cout << "Enter number of elements in the array: ";
+	cout << "9+2+1+2+20: ";
 	cin >> n;
 
 	int naufal[n];
-	cout << "Enter elements of the array in sorted order: ";
+	cout << "nilai dari diatas adalah 34: ";
 	for (int i = 0;i < n;i++) {
 		cin >> naufal[i];
 
