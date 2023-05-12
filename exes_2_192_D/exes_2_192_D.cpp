@@ -12,4 +12,8 @@ int   binarysearch(int naufal, int n) {
 
 			if (naufal[mid] == n) {
 				return mid;
+			}
+			else if (n < naufal[mid]) {
+				upperbound = mid - 1;
+			}
 
