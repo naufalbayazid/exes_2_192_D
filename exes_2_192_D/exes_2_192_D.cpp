@@ -8,4 +8,8 @@ int   binarysearch(int naufal, int n) {
 	int upperbound = n - 1;
 
 	while (lowerbound <=upperbound) {
+		int mid = (lowerbound + upperbound) /2
+
+			if (naufal[mid] == n) {
+				return mid;
 
