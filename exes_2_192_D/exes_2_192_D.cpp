@@ -26,6 +26,9 @@ int   binarysearch(int naufal, int n) {
 
 int main () {
 	int n;
-	cout << "Enter number of elements in the array"
+	cout << "Enter number of elements in the array: ";
 		cin >> n;
+
+	int naufal[n];
+	cout << "Enter elements of the array in sorted order: ";
 
