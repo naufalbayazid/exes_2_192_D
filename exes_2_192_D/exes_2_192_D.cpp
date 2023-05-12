@@ -7,8 +7,8 @@ int   binarysearch(int naufal, int n) {
 
 	int upperbound = n - 1;
 
-	while (lowerbound <=upperbound) {
-		int mid = (lowerbound + upperbound) /2
+	while (lowerbound <= upperbound) {
+		int mid = (lowerbound + upperbound) / 2
 
 			if (naufal[mid] == n) {
 				return mid;
@@ -16,4 +16,8 @@ int   binarysearch(int naufal, int n) {
 			else if (n < naufal[mid]) {
 				upperbound = mid - 1;
 			}
+			else {
+				lowerbound = mid + 1
+			}
+	}
 
